@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Home page of Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/73808233cd.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -17,31 +19,31 @@
             </label>
             <input type="checkbox" id="hamburger-input" class="burger-shower"/>
             <ul class="main-nav">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="index.html">About Me </a></li>
-                <li><a href="index.html">Projects</a></li>
-                <li><a href="index.html">Contact</a></li>   
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About-me">About Me </a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>   
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="home">
         <section class="intro">
             <div class="intro-msg">
                 <p>
                     Hi there, I'm Pami-Pami EF II
                 </p>
-                <P>FRONT-END DEVELOPER</P>
+                <h1 class="hero">FRONT-END DEVELOPER</h1>
                 <P>
                     Elevating user experience through elegant front-end solutions and creating digital delight with my front-end journey.
                 </P>
             </div>
-            <div class="intro-img">
+            <div class="photo">
                 <img src="images/IMG_20220806_142406.jpg" alt="my passport photo">
             </div>
         </section>
 
-        <section class="About-me">
+        <section id="About-me">
             <h2>About Me</h2>
             <p>
                 Highly motivated front-end developer still matching his way into the journey of front-end developers, currently starting my second year of front-end studies at NOROFF.
@@ -53,63 +55,95 @@
         </section>
 
         <section class="my-experience">
-            <h2>Experiences</h2>
+            <h2 class="intro-msg">Experiences</h2>
             <div class="language-icons">
-                <div class="stack"><img src="images/html icon.jpg" alt="HTML icon"></div>
-                <div class="stack"><img src="images/CSS icon.jpg" alt="CSS icon"></div>
-                <div class="stack"><img src="images/js icon.jpg" alt="JavaScript icon"></div>
-                <div class="stack"><img src="images/figma logo.jpg" alt="Figma icon"></div>
-                <div class="stack"><img src="images/wordpress icon.png" alt="WordPress icon"></div>
-            </div>
-        </section>
-
-        <section class="works">
-            <h2>Projects</h2>
-
-            <div class="project-cards">
-
-            </div>
-            <div class="project-cards">
-                <h3>Square-Eyes Movies</h3>
-                <p>
-                    Square-eyes movies is a movie streaming website where users can register and purchase movies to watch with a life-time access to the movies they buy.
-                </p>
-                <p>
-                    This was my very first project as a front-end student; the site is build to encouraged young movie producers published their movies on the web to increase the number of viewers and subscribers. The languages used to build this site include HTML, CSS and JavaScript.
-                </p>
-                <div class="project-links">
-                    <div><a href="https://github.com/EF-Pami/HTML---CSS-CA"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a></div>
-                    <div><a href="https://square-eyes-movies.netlify.app/"><i class="fa-sharp fa-solid fa-link"></i><span class=irrelevant>not needed</span></a></div>
+                <div class="stack">
+                    <img src="images/html icon.jpg" alt="HTML icon">
+                    <p>HTML</p>
                 </div>
-            </div>
-
-            <div class="project-cards">
-                <h3>Community Science Museum</h3>
-                <p>
-                    Community Science museum  was my second project during my fitrst year of front-end studies. This project was all about building a science museum for young and adult where in visitors could visit and learn more on different themes.
-                </p>
-                <p>This project is build using HTML and CSS only.</p>
-                <div class="project-links">
-                    <div><a href="https://github.com/EF-Pami/Semester-1-Project"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a></div>
-                    <div><a href="https://community-science-museum-ef.netlify.app/"><i class="fa-sharp fa-solid fa-link"></i><span class=irrelevant>not needed</span></a></div>
+                <div class="stack">
+                    <img src="images/CSS icon.jpg" alt="CSS icon">
+                    <P>CSS</P>
                 </div>
-            </div>
-
-            <div class="project-cards">
-                <h3>Fitness Power</h3>
-                <p>
-                    Fitness Power is the third project i carried out and served as my project-exam for first year of studies.
-                </p>
-                <p>This is a blog website where users can browse through and read articles on fitness topics .</p>
-                <p>This project is build with HTML, CSS, JavaScript and WordPress. WordPress was only used in this project as a content management structure and for creating the Rest API to be used for the contents.</p>
-                <div class="project-links">
-                    <div><a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-EF-Pami"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a></div>
-                    <div><a href="https://fitness-power.netlify.app/"><i class="fa-sharp fa-solid fa-link"></i><span class=irrelevant>not needed</span></a></div>
+                <div class="stack">
+                    <img src="images/js icon.jpg" alt="JavaScript icon">
+                    <P>JavaScript</P>
+                </div>
+                <div class="stack">
+                    <img src="images/figma logo.jpg" alt="Figma icon">
+                    <P>Figma</P>
+                </div>
+                <div class="stack">
+                    <img src="images/wordpress icon.png" alt="WordPress icon">
+                    <P>WordPress</P>
                 </div>
             </div>
         </section>
 
-        <section class="contact-container">
+        <section id="Projects">
+            <h2 class="intro-msg">Projects</h2>
+
+            
+            <div class="project-cards">
+                <div>
+                    <img src="images/square eyes.jpg" alt="square eyes movies screenshot">
+                </div>
+                <div>
+                    <h3>Square-Eyes Movies</h3>
+                    <p>
+                        Square-eyes movies is a movie streaming website where users can register and purchase movies to watch with a life-time access to the movies they buy.
+                    </p>
+                    <p>
+                        This was my very first project as a front-end student; the site is build to encouraged young movie producers published their movies on the web to increase the number of viewers and subscribers. The languages used to build this site include HTML, CSS and JavaScript.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/EF-Pami/HTML---CSS-CA"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a>
+                        <a href="https://square-eyes-movies.netlify.app/"><i class="fa-solid fa-link"></i><span class=irrelevant>not needed</span></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="project-cards">
+                <div>
+                    <img src="images/museum.jpg" alt="community science museum screenshot">
+                </div>
+                <div>
+                    <h3>Community Science Museum</h3>
+                    <p>
+                        Community Science museum  was my second project during my fitrst year of front-end studies. This project was all about building a science museum for young and adult where in visitors could visit and learn more on different themes.
+                    </p>
+                    <p>This project is build using HTML and CSS only.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/EF-Pami/Semester-1-Project"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a>
+                        <a href="https://community-science-museum-ef.netlify.app/"><i class="fa-solid fa-link"></i><span class=irrelevant>not needed</span></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="project-cards">
+                <div>
+                    <img src="images/fitness power.jpg" alt="fitness power screenshot">
+                </div>
+                <div>
+                    <h3>Fitness Power</h3>
+                    <p>
+                        Fitness Power is the third project i carried out and served as my project-exam for first year of studies.
+                    </p>
+                    <p>This is a blog website where users can browse through and read articles on fitness topics .
+                    This project is build with HTML, CSS, JavaScript and WordPress. WordPress was only used in this project as a content management structure and for creating the Rest API to be used for the contents.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-EF-Pami"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a>
+                        <a href="https://fitness-power.netlify.app/"><i class="fa-solid fa-link"></i><span class=irrelevant>not needed</span></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="contact">
+            
             <div class="form-container">
                 <p>
                     Have a project you want us to work on, front-end issues; send me a message.
@@ -151,11 +185,14 @@
                 
             </div>
             <div class="contact-links">
+                <h2>Contact</h2>
                 <p>Tel (sms) : +47 998 836 81</p>
-                <div><a href="https://github.com/EF-Pami/Portfolio-1"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a></div>
-                <div><a href="https://mail.google.com/mail/u/1/#inbox"><i class="fa-solid fa-at" style="color: #e71c0d;"></i><span class=irrelevant>not needed</span></a></div>
-                <div><a href="https://www.linkedin.com/in/ef-ll-pami-pami-04576624b"><i class="fa-brands fa-linkedin" style="color: #297ad1;"></i><span class=irrelevant>not needed</span></a></div>
-                <div><a href="https://x.com/ItsjoelLeo?t=SxQr4ygxIR8jrr8o7D68yQ&s=03"><i class="fa-brands fa-square-x-twitter"></i><span class=irrelevant>not needed</span></a></div>
+                <div>
+                    <a href="https://github.com/EF-Pami/Portfolio-1"><i class="fa-brands fa-square-github"></i><span class=irrelevant>not needed</span></a>
+                    <a href="https://mail.google.com/mail/u/1/#inbox"><i class="fa-solid fa-at" style="color: #e71c0d;"></i><span class=irrelevant>not needed</span></a>
+                    <a href="https://www.linkedin.com/in/ef-ll-pami-pami-04576624b"><i class="fa-brands fa-linkedin" style="color: #297ad1;"></i><span class=irrelevant>not needed</span></a>
+                    <a href="https://x.com/ItsjoelLeo?t=SxQr4ygxIR8jrr8o7D68yQ&s=03"><i class="fa-brands fa-square-x-twitter"></i><span class=irrelevant>not needed</span></a>
+                </div>
             </div>
         </section>
 
