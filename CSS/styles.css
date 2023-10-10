@@ -139,7 +139,7 @@ nav a:hover {
 .myname {
     font-size: 22px;
     word-wrap: break-word;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /*contact section styling*/
@@ -361,6 +361,10 @@ footer {
         flex-direction: row-reverse;
         justify-content: space-around;
     }
+    .desc{
+        font-size: 16px;
+    }
+
     #contact {
         display: flex;
         flex-direction: row;
