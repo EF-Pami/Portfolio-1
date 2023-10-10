@@ -80,6 +80,7 @@ body {
     text-align: right;
     color: var(--white);
     
+    
 }
 
 .main-nav,
@@ -137,6 +138,8 @@ nav a:hover {
 
 .myname {
     font-size: 22px;
+    word-wrap: break-word;
+    margin-top: 10px;
 }
 
 /*contact section styling*/
@@ -210,7 +213,9 @@ input[type=submit]:hover{
 .fa-brands, .fa-solid {
     font-size: 40px;
 }
-
+.fa-square-github {
+    color: var(--black);
+}
 
 
 /*About section styling*/
