@@ -28,7 +28,7 @@ main {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     margin-top: 3em;
 
@@ -36,13 +36,13 @@ h1 {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -52,6 +52,24 @@ h3 {
 
 body {
     background-color: var(--darkblue);
+}
+
+#Backtop {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 5px;
+    border-radius: 100px;
+    background-color: var(--burlywood);
+    color: var(--black);
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.fa-regular {
+    font-size: 22px;
 }
 
 /*menu bar styling*/
@@ -114,6 +132,11 @@ nav a:hover {
 
 .intro-msg {
     color: var(--white);
+    line-height: 1.5;
+}
+
+.myname {
+    font-size: 22px;
 }
 
 /*contact section styling*/
@@ -122,22 +145,7 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-/*#contact-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    gap: 10px;
-}*/
-/*#contact-form{
-    background-color: var(--white);
-	border-radius: 5px;
-	box-shadow: 0 2px 5px var(--black);
-	overflow: hidden;
-	width: 500px;
-	max-width: 100%;
-    padding: 30px 40px;
-    margin-bottom: 40px;
-}*/
+
 .form-box {
 	padding-bottom: 20px;
 }
@@ -195,20 +203,14 @@ input[type=submit] {
 }
 
 input[type=submit]:hover{
+    color: var(--white);
     background-color: var(--darkblue);
 }
 
-.contact-links .fa {
-    width: 30px;
-    height: 30px;
+.fa-brands, .fa-solid {
+    font-size: 40px;
 }
 
-/*.contact-links a {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-
-}*/
 
 
 /*About section styling*/
@@ -373,6 +375,10 @@ footer {
     .project-cards img {
         width: 526px;
         height: 368px;
+    }
+
+    #Projects .project-cards p {
+        font-size: 16px;
     }
 
     
