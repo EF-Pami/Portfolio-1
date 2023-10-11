@@ -17,6 +17,20 @@
     box-sizing: border-box;
 }
 
+header {height: 8rem;}
+
+.flex {display: flex;}
+.content-wrapper {
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.header-wrapper {
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 html,
 body {
     width: 100%;
@@ -126,20 +140,114 @@ nav a:hover {
 /*home styling*/
 
 .photo img {
-    width: 100%;
-    height: 468px;
+    /*width: 100%;
+    height: 468px;*/
     border-radius: 100%;
 }
 
 .intro-msg {
     color: var(--white);
     line-height: 1.5;
+    margin: 30px;
 }
 
 .myname {
     font-size: 22px;
     word-wrap: break-word;
     margin-top: 20px;
+}
+
+
+/*About section styling*/
+#contact, #About-me {
+    /*width: 100%;*/
+    background-color: var(--belge);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#About-me {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+
+/*Experience section styling*/
+.language-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.language-icons img {
+    width: 60px;
+    height: 60px;
+}
+
+.language-icons {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.language-icons {
+    margin: 20px;
+}
+
+.language-icons p{
+    color: var(--white);
+}
+
+
+/*Project section styling*/
+
+#Projects {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+#Projects h2 {
+    text-align: left;
+}
+
+#Projects .project-cards {
+    display: flex;
+    flex-direction: column;
+    /*gap: 40px;*/
+}
+
+#Projects .project-cards {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    height: 250px;
+}
+
+.project-cards img {
+    width: 100%;
+    height: 250px;
+}
+
+#Projects .project-cards {
+    background-color: var(--belge);
+    padding: 20px;
+}
+
+#Projects .project-cards, #About-me {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#Projects .project-cards p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px 0px;
 }
 
 /*contact section styling*/
@@ -217,103 +325,7 @@ input[type=submit]:hover{
     color: var(--black);
 }
 
-
-/*About section styling*/
-#contact, #About-me {
-    width: 100%;
-    background-color: var(--belge);
-    padding: 20px;
-    margin-top: 10px;
-}
-
-#About-me {
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-/*Experience section styling*/
-.language-icons {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.language-icons img {
-    width: 60px;
-    height: 60px;
-}
-
-.language-icons {
-    grid-column-start: 2;
-    grid-column-end: 12;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.2rem;
-}
-
-.language-icons {
-    margin: 20px;
-}
-
-.language-icons p{
-    color: var(--white);
-}
     
-
-/*Project section styling*/
-
-#Projects {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 25px 20px;
-}
-
-#Projects h2 {
-    text-align: left;
-}
-
-#Projects .project-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-#Projects .project-cards {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    overflow: hidden;
-    height: 250px;
-}
-
-.project-cards img {
-    width: 100%;
-    height: 250px;
-}
-
-#Projects .project-cards {
-    background-color: var(--belge);
-    padding: 20px;
-}
-
-#Projects .project-cards {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-#Projects .project-cards p {
-    font-size: 14px;
-    line-height: 1.5;
-    padding: 15px 0px;
-}
-
-/*.project-cards {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--belge);
-    padding: 20px;
-}*/
 
 /*footer styling*/
 footer {
@@ -340,9 +352,9 @@ footer {
     .main-nav {
         display: flex;
         height: 100%;
-        justify-content: flex-end;
+        justify-content: center;
         gap: 4em;
-        /*align-items: center;*/
+        align-items: center;
         width: 100%;
         background-color: transparent;
         list-style: none;

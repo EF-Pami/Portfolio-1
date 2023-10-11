@@ -12,20 +12,23 @@
 </head>
 <body>
     <header>
-        
-        <nav id="sidebar-menu">
+        <div class="header-wrapper flex content-wrapper">
+            <nav id="sidebar-menu">
             
-            <label id="hamburger-menu" for="hamburger-input">
-                <i class='fa fa-bars'></i><span class=irrelevant>not needed</span>
-            </label>
-            <input type="checkbox" id="hamburger-input" class="burger-shower"/>
-            <ul class="main-nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#About-me">About Me </a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>   
-            </ul>
-        </nav>
+                <label id="hamburger-menu" for="hamburger-input">
+                    <i class='fa fa-bars'></i><span class=irrelevant>not needed</span>
+                </label>
+                <input type="checkbox" id="hamburger-input" class="burger-shower"/>
+                <ul class="main-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About-me">About Me </a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>   
+                </ul>
+            </nav>
+        </div>
+        
+        
     </header>
 
     <main id="home">
@@ -35,12 +38,12 @@
                     Hi there, I'm Pami-Pami EF II
                 </p>
                 <h1 class="hero">FRONT-END DEVELOPER</h1>
-                <P>
+                <P class="desc">
                     Elevating user experience through elegant front-end solutions and creating digital delight with my front-end journey.
                 </P>
             </div>
-            <div class="photo">
-                <img src="images/IMG_20220806_142406.jpg" alt="my passport photo">
+            <div class="photo" style="width: 30rem; aspect-ratio: 1;">
+                <img src="images/IMG_20220806_142406.jpg" alt="my passport photo" style="height: 100%; object-fit: cover;">
             </div>
         </section>
 
