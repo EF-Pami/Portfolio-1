@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 
-header {height: 8rem;}
+header {height: 6rem;}
 
 .flex {display: flex;}
 .content-wrapper {
@@ -148,7 +148,7 @@ nav a:hover {
 .intro-msg {
     color: var(--white);
     line-height: 1.5;
-    margin: 30px;
+    /*margin: 30px;*/
 }
 
 .myname {
@@ -160,7 +160,7 @@ nav a:hover {
 
 /*About section styling*/
 #contact, #About-me {
-    /*width: 100%;*/
+    width: 100%;
     background-color: var(--belge);
     padding: 20px;
     margin-top: 20px;
@@ -238,7 +238,7 @@ nav a:hover {
     padding: 20px;
 }
 
-#Projects .project-cards, #About-me {
+#Projects .project-cards {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -364,9 +364,9 @@ footer {
         display: none;
     }
 
-    .photo img {
+    /*.photo img {
         width: 487px;
-    }
+    }*/
 
     .intro  {
         display: flex;
