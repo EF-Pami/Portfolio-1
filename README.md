@@ -16,10 +16,12 @@ In this project, i am buidling my first ever front-end porfolio; this portfolio 
 ## Built With
 - [HTML] (https://developer.mozilla.org/en-US/docs/Web/HTML)
 -  [CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)
+-  [JavaScript]
 
 
 ## Contact
 [My LinkedIn account](https://www.linkedin.com/in/ef-ll-pami-pami-04576624b)
 
 [My Twitter account](https://x.com/ItsjoelLeo?t=SxQr4ygxIR8jrr8o7D68yQ&s=03)
+
 
