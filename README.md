@@ -16,6 +16,7 @@ In this project, i am buidling my first ever front-end porfolio; this portfolio 
 ## Built With
 - [HTML] (https://developer.mozilla.org/en-US/docs/Web/HTML)
 -  [CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)
+-  [JavaScript]
 
 
 ## Contact
@@ -23,4 +24,4 @@ In this project, i am buidling my first ever front-end porfolio; this portfolio 
 
 [My Twitter account](https://x.com/ItsjoelLeo?t=SxQr4ygxIR8jrr8o7D68yQ&s=03)
 
-[JavaScript]
+
