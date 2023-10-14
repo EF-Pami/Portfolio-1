@@ -140,9 +140,7 @@ nav a:hover {
 /*home styling*/
 
 .photo img {
-    
     border-radius: 100%;
-    
 }
 
 .intro-msg {
@@ -352,7 +350,7 @@ footer {
     .main-nav {
         display: flex;
         height: 100%;
-        justify-content: center;
+        justify-content: space-between;
         gap: 4em;
         align-items: center;
         width: 100%;
